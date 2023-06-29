@@ -45,7 +45,7 @@ section {
   padding: 5rem 9%;
 }
 body {
-  background: linear-gradient(75.15deg, #e5ebee 30.22%, #eff3fc 75.61%);
+  background: linear-gradient(75.15deg, #e0e0ce 30.22%, #e0e0ce 75.61%);
 }
 /*------------------------------------------------------------------------------------------*/
 .heading {
@@ -80,7 +80,7 @@ body {
   display: inline-block;
   padding: 0.9rem 3rem;
   border-radius: 0.5rem;
-  color: rgb(13, 97, 48);
+  color: rgb(3, 48, 22);
   background: rgb(90, 236, 22);
   font-size: 1.7rem;
   cursor: pointer;
@@ -93,7 +93,7 @@ body {
 
 /*------------------------------------------------------------------------------------------*/
 .cabecalho .cabecalho-1 {
-  background: #383d3b;
+  background: #181818;
   padding: 0.1rem 9%;
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@ body {
   height: 4.5rem;
   border: var(--borda);
   overflow: hidden;
-  background: #e6e6e1;
+  background: #525250;
   display: flex;
   align-items: center;
   border-radius: 0.8rem;
@@ -136,13 +136,13 @@ body {
 .cabecalho .cabecalho-1 .icones a {
   font-size: 2.5rem;
   margin-left: 1.5rem;
-  color: #697279;
+  color: #eff1f3;
   cursor: pointer;
 }
 
 .cabecalho .cabecalho-1 .icones div:hover,
 .cabecalho .cabecalho-1 .icones a:hover {
-  color: #7d6167;
+  color: #e5a2b1;
 }
 
 #search-botao {
@@ -150,7 +150,7 @@ body {
 }
 
 .cabecalho .cabecalho-2 {
-  background: #7c7c7c;
+  background: #424242;
 }
 
 .cabecalho .cabecalho-2 .navbar {
@@ -531,7 +531,11 @@ body {
 }
 /*------------------------------------------------------------------------------------------*/
 .deal {
-  background: #d6d0d4;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background: #b8b5b5;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
